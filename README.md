@@ -172,6 +172,17 @@ O contrato não inclui autenticação. A configuração entregue destina-se a ex
 
 O projeto mantém o Gradle e o pacote Java da base enviada. O checksum da distribuição está fixado em `gradle/wrapper/gradle-wrapper.properties`. Os scripts gerados do Gradle preservam seus avisos de licença; os arquivos Java não contêm comentários.
 
+
+## Integração com o Front-end
+
+Esta API é integrada ao projeto front-end fornecido para consumo e validação dos endpoints de imóveis.
+
+Projeto front-end:
+
+[Imóvel Fácil Front-end](https://github.com/joaocarloslima/imovel-facil-app)
+
+O front-end utiliza esta API para realizar listagem, busca, paginação e gerenciamento dos imóveis por meio das rotas disponíveis em `/properties`.
+
 ## Integrantes
 
 | Gabriel Rocha de Souza| RM567023  |
